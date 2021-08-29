@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Google</title>
+    <link rel="icon" href="glogo.png" type="image/icon type">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="project0.css">
+    <link rel="stylesheet" href="advance.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="container">
+        <nav class="right">
+            <a class="text" href="index.html">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                Google Search
+            </a>
+        </nav>
+            <div class="alogo" >
+                <a href="index.html">
+                    <span>
+                        <img  src="googlelogo_color_272x92dp.png" alt="Googlepic" width="75px" height="25px">
+                    </span>
+                </a>
+            </div>
+            <div class="avd">
+                Advance Search
+            </div>
+            <div class="line"></div>
+
+
+            <div class="margin">
+                <form>
+
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label col-form-label-sm">Find pages with...</label>
+                    <div class="col-sm-4">
+                        <input class="form-control form-control-sm"" type="hidden" name="temp" placeholder="">
+                    </div>
+                        <div class="col-sm-5 rfont">To do this in the search box.</div>
+                    </div>
+                </form>
+
+                <form action="https://google.com/search">
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label col-form-label-sm nfont">all these words:</label>
+                    <div class="col-sm-4">
+                        <input class="form-control form-control-sm"" type="text" name="as_q" placeholder="">
+                    </div>
+                        <div class="col-sm-5 sfont">Type the important words: tri-colour rat terrier</div>
+                    </div>
+                    
+
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label col-form-label-sm nfont"> this exact word or phrase:</label>
+                    <div class="col-sm-4">
+                        <input class="form-control form-control-sm"" type="text" name="as_epq" placeholder="">
+                    </div>
+                        <div class="col-sm-5  sfont"> Put exact words in quotes: "rat terrier"
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label col-form-label-sm">any of these words:</label>
+                    <div class="col-sm-4">
+                        <input class="form-control form-control-sm"" type="text" name="as_oq" placeholder="">
+                    </div>
+                        <div class="col-sm-5 sfont">Type OR between all the words you want: miniature OR standard</div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label col-form-label-sm">  none of these words:
+
+                        </label>
+
+                    <div class="col-sm-4">
+                        <input class="form-control form-control-sm"" type="text" name="as_eq" placeholder="">
+                    </div>
+                        <div class="col-sm-5 sfont">Put a minus sign just before words that you don't want: <br>-rodent, -"Jack Russell"</div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label col-form-label-sm"> numbers ranging from:
+                        </label>
+                    <div class="col-sm-2">
+                        <input class="form-control form-control-sm"" type="text" name="as_nlo" placeholder="">
+                    </div>
+                    <div>to</div>
+                    <div class="col-sm-2">
+                        <input class="form-control form-control-sm"" type="text" name="as_nhi" placeholder="">
+                    </div>
+                        <div class="col-sm-5 sfont">Put two full stops between the numbers and add a unit of measurement:<br> 10..35 kg, £300..£500, 2010..2011</div>
+                    </div>
+                        <br>
+
+
+                    <button type="submit" class="btn btn-primary mb-2">Advance Search</button>
+
+                </form>
+            </div>
+    </div>
+</body>
+</html>
+
